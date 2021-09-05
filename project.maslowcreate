@@ -1,0 +1,24 @@
+{
+    "atomType": "Molecule",
+    "name": "Driver Board Mounts",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 919058,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.976303317535545,
+            "y": 0.5,
+            "uniqueID": 593544,
+            "ioValues": []
+        }
+    ],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "simplify": false,
+    "filetypeVersion": 1,
+    "circleSegmentSize": "0.001"
+}
