@@ -465,10 +465,35 @@
             "simplify": false
         },
         {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.43045387994143486,
+            "y": 0.16412213740458015,
+            "uniqueID": 453599,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/919058/194330Molecule"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 80
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Upper",
-            "x": 0.3572192513368984,
-            "y": 0.3320610687022901,
+            "x": 0.34260614934114203,
+            "y": 0.35877862595419846,
             "uniqueID": 266786,
             "ioValues": [],
             "topLevel": false,
@@ -534,6 +559,10 @@
                 },
                 {
                     "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
                     "ioValue": 10
                 }
             ]
@@ -888,6 +917,20 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 194330,
+            "ap2ID": 453599
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 453599,
+            "ap2ID": 754622
+        },
         {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
