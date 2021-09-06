@@ -84,8 +84,8 @@
         {
             "atomType": "Molecule",
             "name": "Lower",
-            "x": 0.4385026737967915,
-            "y": 0.8015267175572519,
+            "x": 0.4363103953147877,
+            "y": 0.816793893129771,
             "uniqueID": 830004,
             "ioValues": [],
             "topLevel": false,
@@ -295,6 +295,23 @@
                     ]
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.8243045387994143,
+                    "y": 0.6374045801526718,
+                    "uniqueID": 397134,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/919058/830004/654127Group"
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Lower"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9786096256684492,
@@ -304,6 +321,23 @@
                         {
                             "name": "number or geometry",
                             "ioValue": "atoms/919058/830004/654127Group"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.9077598828696926,
+                    "y": 0.7213740458015268,
+                    "uniqueID": 879948,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/919058/830004/397134Tag"
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Lower"
                         }
                     ]
                 }
@@ -357,6 +391,20 @@
                     "ap2Primary": false,
                     "ap1ID": 654127,
                     "ap2ID": 965231
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 654127,
+                    "ap2ID": 397134
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 397134,
+                    "ap2ID": 879948
                 }
             ],
             "fileTypeVersion": 1,
