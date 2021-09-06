@@ -8,17 +8,58 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3696682464454976,
-            "y": 0.5954198473282443,
-            "uniqueID": 550123,
-            "ioValues": [
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.3572192513368984,
+            "y": 0.3320610687022901,
+            "uniqueID": 266786,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "diameter",
-                    "ioValue": 10
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9786096256684492,
+                    "y": 0.5,
+                    "uniqueID": 913321,
+                    "ioValues": []
                 }
-            ]
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Github Molecule",
+            "x": 0.16149732620320856,
+            "y": 0.48473282442748095,
+            "uniqueID": 471465,
+            "projectID": "229179114",
+            "ioValues": [],
+            "simplify": false
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Lower",
+            "x": 0.30160427807486634,
+            "y": 0.7213740458015268,
+            "uniqueID": 830004,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9786096256684492,
+                    "y": 0.5,
+                    "uniqueID": 965231,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false
         },
         {
             "atomType": "Output",
