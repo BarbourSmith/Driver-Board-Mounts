@@ -570,8 +570,8 @@
         {
             "atomType": "Molecule",
             "name": "Lower",
-            "x": 0.4407027818448023,
-            "y": 0.8358778625954199,
+            "x": 0.44385026737967914,
+            "y": 0.8396946564885496,
             "uniqueID": 830004,
             "ioValues": [],
             "topLevel": false,
@@ -615,7 +615,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 100
+                            "ioValue": 125
                         }
                     ]
                 },
@@ -658,8 +658,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Arm",
-                    "x": 0.3740849194729136,
-                    "y": 0.6908396946564885,
+                    "x": 0.3689839572192513,
+                    "y": 0.66793893129771,
                     "uniqueID": 642034,
                     "ioValues": [],
                     "topLevel": false,
@@ -673,7 +673,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 30
+                                    "ioValue": 28
                                 },
                                 {
                                     "name": "y length",
@@ -711,7 +711,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 50
+                                    "ioValue": 49
                                 },
                                 {
                                     "name": "yDist",
