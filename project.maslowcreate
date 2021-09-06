@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -112
+                    "ioValue": -110
                 }
             ]
         },
@@ -84,8 +84,8 @@
         {
             "atomType": "Molecule",
             "name": "Lower",
-            "x": 0.4363103953147877,
-            "y": 0.816793893129771,
+            "x": 0.4407027818448023,
+            "y": 0.8358778625954199,
             "uniqueID": 830004,
             "ioValues": [],
             "topLevel": false,
@@ -172,8 +172,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Arm",
-                    "x": 0.3764705882352941,
-                    "y": 0.6832061068702291,
+                    "x": 0.3740849194729136,
+                    "y": 0.6908396946564885,
                     "uniqueID": 642034,
                     "ioValues": [],
                     "topLevel": false,
@@ -208,7 +208,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 100
+                                    "ioValue": 40
                                 }
                             ]
                         },
@@ -297,8 +297,8 @@
                 {
                     "atomType": "Tag",
                     "name": "Add Tag",
-                    "x": 0.8243045387994143,
-                    "y": 0.6374045801526718,
+                    "x": 0.8718887262079063,
+                    "y": 0.4427480916030534,
                     "uniqueID": 397134,
                     "ioValues": [
                         {
@@ -320,24 +320,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/919058/830004/654127Group"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.9077598828696926,
-                    "y": 0.7213740458015268,
-                    "uniqueID": 879948,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
                             "ioValue": "atoms/919058/830004/397134Tag"
-                        },
-                        {
-                            "name": "tag",
-                            "ioValue": "Lower"
                         }
                     ]
                 }
@@ -387,13 +370,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 654127,
-                    "ap2ID": 965231
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 654127,
@@ -401,14 +377,44 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 397134,
-                    "ap2ID": 879948
+                    "ap2ID": 965231
                 }
             ],
             "fileTypeVersion": 1,
             "simplify": false
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.6237188872620791,
+            "y": 0.7786259541984732,
+            "uniqueID": 822235,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/919058/754622Assembly"
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Lower"
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.7518301610541728,
+            "y": 0.7099236641221374,
+            "uniqueID": 344062,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/919058/822235ExtractTag"
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -447,11 +453,25 @@
             "ap2ID": 593544
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 754622,
+            "ap2ID": 822235
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 830004,
             "ap2ID": 754622
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 822235,
+            "ap2ID": 344062
         }
     ],
     "fileTypeVersion": 1,
