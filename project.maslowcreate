@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Driver Board",
-            "x": 0.20424597364568084,
-            "y": 0.2251908396946565,
+            "x": 0.2,
+            "y": 0.22900763358778628,
             "uniqueID": 194330,
             "ioValues": [],
             "topLevel": false,
@@ -315,8 +315,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 0.7796791443850267,
-                    "y": 0.7137404580152672,
+                    "x": 0.7786096256684492,
+                    "y": 0.7366412213740459,
                     "uniqueID": 345530,
                     "ioValues": [],
                     "topLevel": false,
@@ -390,7 +390,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -16
+                                    "ioValue": -15
                                 }
                             ]
                         },
