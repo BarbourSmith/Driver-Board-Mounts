@@ -1076,8 +1076,8 @@
         {
             "atomType": "Molecule",
             "name": "Plastic",
-            "x": 0.24084919472913618,
-            "y": 0.7519083969465649,
+            "x": 0.23279648609077597,
+            "y": 0.7251908396946565,
             "uniqueID": 434517,
             "ioValues": [],
             "topLevel": false,
@@ -1091,7 +1091,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 60
+                            "ioValue": 90
                         }
                     ]
                 },
@@ -1108,7 +1108,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 5
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -1762,8 +1762,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7862371888726207,
-            "y": 0.6793893129770993,
+            "x": 0.7181551976573939,
+            "y": 0.6030534351145038,
             "uniqueID": 359796,
             "ioValues": [
                 {
@@ -1786,6 +1786,19 @@
                 {
                     "name": "number or geometry",
                     "ioValue": "atoms/919058/810487Group"
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.8638360175695461,
+            "y": 0.7404580152671755,
+            "uniqueID": 628988,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/919058/359796ExtractTag"
                 }
             ]
         }
@@ -1853,6 +1866,13 @@
             "ap2Primary": false,
             "ap1ID": 917219,
             "ap2ID": 810487
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 359796,
+            "ap2ID": 628988
         }
     ],
     "fileTypeVersion": 1,
