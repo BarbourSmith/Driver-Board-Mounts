@@ -1076,8 +1076,8 @@
         {
             "atomType": "Molecule",
             "name": "Plastic",
-            "x": 0.23279648609077597,
-            "y": 0.7251908396946565,
+            "x": 0.23645680819912152,
+            "y": 0.7137404580152672,
             "uniqueID": 434517,
             "ioValues": [],
             "topLevel": false,
@@ -1091,7 +1091,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 90
+                            "ioValue": 80
                         }
                     ]
                 },
