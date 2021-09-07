@@ -1022,79 +1022,10 @@
             ]
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.3411764705882353,
-            "y": 0.4427480916030534,
-            "uniqueID": 767922,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/919058/107925GitHubMolecule"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -173
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Dewalt DW611",
-            "x": 0.13475935828877006,
-            "y": 0.5534351145038168,
-            "uniqueID": 107925,
-            "projectID": "229179114",
-            "ioValues": [],
-            "simplify": false
-        },
-        {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.6171303074670571,
-            "y": 0.27862595419847325,
-            "uniqueID": 810487,
-            "ioValues": [
-                {
-                    "name": "3D shape 5",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 6",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.4904831625183016,
-            "y": 0.6564885496183206,
-            "uniqueID": 917219,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Plastic",
-            "x": 0.2569546120058565,
-            "y": 0.7786259541984732,
+            "x": 0.30014641288433386,
+            "y": 0.4351145038167939,
             "uniqueID": 434517,
             "ioValues": [],
             "topLevel": false,
@@ -1941,10 +1872,79 @@
             "simplify": false
         },
         {
+            "atomType": "Group",
+            "name": "Group",
+            "x": 0.6171303074670571,
+            "y": 0.27862595419847325,
+            "uniqueID": 810487,
+            "ioValues": [
+                {
+                    "name": "3D shape 5",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 6",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5102489019033675,
+            "y": 0.4732824427480916,
+            "uniqueID": 917219,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Dewalt DW611",
+            "x": 0.1061493411420205,
+            "y": 0.8893129770992366,
+            "uniqueID": 107925,
+            "projectID": "229179114",
+            "ioValues": [],
+            "simplify": false
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5424597364568082,
+            "y": 0.7748091603053435,
+            "uniqueID": 767922,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/919058/107925GitHubMolecule"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -173
+                }
+            ]
+        },
+        {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7181551976573939,
-            "y": 0.6030534351145038,
+            "x": 0.7101024890190336,
+            "y": 0.6259541984732824,
             "uniqueID": 359796,
             "ioValues": [
                 {
@@ -2007,18 +2007,11 @@
             "ap2ID": 917219
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 6",
-            "ap2Primary": false,
-            "ap1ID": 767922,
-            "ap2ID": 810487
-        },
-        {
             "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 107925,
-            "ap2ID": 767922
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 434517,
+            "ap2ID": 917219
         },
         {
             "ap1Name": "geometry",
@@ -2043,10 +2036,17 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 107925,
+            "ap2ID": 767922
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 6",
             "ap2Primary": false,
-            "ap1ID": 434517,
-            "ap2ID": 917219
+            "ap1ID": 767922,
+            "ap2ID": 810487
         },
         {
             "ap1Name": "geometry",
