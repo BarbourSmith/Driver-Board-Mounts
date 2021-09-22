@@ -1792,7 +1792,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 10
+                                            "ioValue": 14
                                         }
                                     ]
                                 },
@@ -1823,11 +1823,11 @@
                                         },
                                         {
                                             "name": "x-axis degrees",
-                                            "ioValue": 0
+                                            "ioValue": 90
                                         },
                                         {
                                             "name": "y-axis degrees",
-                                            "ioValue": 90
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "z-axis degrees",
@@ -1848,15 +1848,15 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": -5
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 14
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 0
+                                            "ioValue": 7
                                         }
                                     ]
                                 },
@@ -1886,7 +1886,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "atoms/919058/194330/434799/659464/339805Move"
+                                            "ioValue": "atoms/919058/194330/434799/659464/357168Group"
                                         }
                                     ]
                                 }
@@ -1912,13 +1912,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 893877,
                                     "ap2ID": 339805
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 339805,
-                                    "ap2ID": 289725
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1961,6 +1954,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 404941,
                                     "ap2ID": 357168
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 357168,
+                                    "ap2ID": 289725
                                 }
                             ],
                             "fileTypeVersion": 1,
