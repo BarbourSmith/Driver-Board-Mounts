@@ -2129,24 +2129,11 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 25
+                                    "ioValue": 35
                                 },
                                 {
                                     "name": "zDist",
                                     "ioValue": 0
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.09370424597364568,
-                            "y": 0.7290076335877863,
-                            "uniqueID": 173474,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 15
                                 }
                             ]
                         },
@@ -2168,6 +2155,19 @@
                                 }
                             ],
                             "simplify": false
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.09663250366032211,
+                            "y": 0.7480916030534351,
+                            "uniqueID": 173474,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 20
+                                }
+                            ]
                         },
                         {
                             "atomType": "Output",
@@ -2206,18 +2206,18 @@
                             "ap2ID": 904954
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 173474,
-                            "ap2ID": 499992
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "3D shape 2",
                             "ap2Primary": false,
                             "ap1ID": 904954,
                             "ap2ID": 122199
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 173474,
+                            "ap2ID": 499992
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -2309,7 +2309,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 8
+                                    "ioValue": 5
                                 }
                             ]
                         },
