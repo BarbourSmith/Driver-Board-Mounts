@@ -4580,8 +4580,8 @@
         {
             "atomType": "Molecule",
             "name": "Upper Plastic",
-            "x": 0.13030746705710103,
-            "y": 0.7404580152671755,
+            "x": 0.12884333821376281,
+            "y": 0.7290076335877863,
             "uniqueID": 992013,
             "ioValues": [
                 {
@@ -4687,8 +4687,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolt Posts",
-                    "x": 0.6200585651537335,
-                    "y": 0.24427480916030533,
+                    "x": 0.6207906295754027,
+                    "y": 0.25572519083969464,
                     "uniqueID": 588548,
                     "ioValues": [
                         {
@@ -4998,6 +4998,23 @@
                     ]
                 },
                 {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.7598828696925329,
+                    "y": 0.40076335877862596,
+                    "uniqueID": 620483,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 0.6193265007320644,
@@ -5209,7 +5226,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/919058/992013/761277Difference"
+                            "ioValue": "atoms/919058/992013/620483Group"
                         }
                     ]
                 }
@@ -5279,6 +5296,13 @@
                     "ap2ID": 788444
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 588548,
+                    "ap2ID": 620483
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
@@ -5303,8 +5327,15 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 761277,
+                    "ap1ID": 620483,
                     "ap2ID": 400906
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 761277,
+                    "ap2ID": 620483
                 },
                 {
                     "ap1Name": "Geometry",
