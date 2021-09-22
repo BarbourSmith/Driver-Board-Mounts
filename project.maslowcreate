@@ -2323,7 +2323,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/919058/194330/398509/678852GitHubMolecule"
+                            "ioValue": "atoms/919058/609130/678852GitHubMolecule"
                         },
                         {
                             "name": "xDist",
@@ -2655,6 +2655,23 @@
             ],
             "fileTypeVersion": 1,
             "simplify": false
+        },
+        {
+            "atomType": "Group",
+            "name": "Group",
+            "x": 0.24158125915080525,
+            "y": 0.5458015267175573,
+            "uniqueID": 275050,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -4479,8 +4496,8 @@
         {
             "atomType": "Molecule",
             "name": "Upper Plastic",
-            "x": 0.24963396778916544,
-            "y": 0.7748091603053435,
+            "x": 0.13177159590043924,
+            "y": 0.732824427480916,
             "uniqueID": 992013,
             "ioValues": [
                 {
@@ -4493,8 +4510,8 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.16251830161054173,
-                    "y": 0.3244274809160305,
+                    "x": 0.1061493411420205,
+                    "y": 0.27099236641221375,
                     "uniqueID": 395882,
                     "ioValues": [
                         {
@@ -4505,18 +4522,10 @@
                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return Input1.noVoid();        //return must be geometry;\n}\n\nreturn main(Input1);"
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Board",
-                    "x": 0.013333333333333334,
-                    "y": 0.47709923664122134,
-                    "uniqueID": 738759,
-                    "ioValues": []
-                },
-                {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 0.2869692532942899,
-                    "y": 0.47709923664122134,
+                    "x": 0.25768667642752563,
+                    "y": 0.31679389312977096,
                     "uniqueID": 341714,
                     "ioValues": [
                         {
@@ -4539,11 +4548,34 @@
                     "closedSelection": 0
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Board",
+                    "x": 0.013333333333333334,
+                    "y": 0.47709923664122134,
+                    "uniqueID": 738759,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Grow",
-                    "x": 0.44363103953147875,
-                    "y": 0.37022900763358774,
+                    "x": 0.4516837481698389,
+                    "y": 0.2748091603053435,
                     "uniqueID": 141316,
+                    "projectID": "409214963",
+                    "ioValues": [
+                        {
+                            "name": "Amount",
+                            "ioValue": 3
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Grow",
+                    "x": 0.3784773060029282,
+                    "y": 0.4541984732824427,
+                    "uniqueID": 188323,
                     "projectID": "409214963",
                     "ioValues": [
                         {
@@ -4571,31 +4603,10 @@
                     ]
                 },
                 {
-                    "atomType": "Group",
-                    "name": "Group",
-                    "x": 0.46998535871156666,
-                    "y": 0.6717557251908397,
-                    "uniqueID": 788444,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.22840409956076133,
-                    "y": 0.8473282442748092,
+                    "x": 0.1259150805270864,
+                    "y": 0.7977099236641221,
                     "uniqueID": 816801,
                     "ioValues": [
                         {
@@ -4609,10 +4620,31 @@
                     ]
                 },
                 {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.5241581259150805,
+                    "y": 0.6221374045801527,
+                    "uniqueID": 788444,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.35651537335285505,
-                    "y": 0.8396946564885496,
+                    "x": 0.3067349926793558,
+                    "y": 0.7633587786259541,
                     "uniqueID": 630753,
                     "ioValues": [
                         {
@@ -4648,6 +4680,20 @@
                     "ap2ID": 341714
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 341714,
+                    "ap2ID": 141316
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 341714,
+                    "ap2ID": 188323
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Input1",
                     "ap2Primary": false,
@@ -4662,25 +4708,18 @@
                     "ap2ID": 788444
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 341714,
-                    "ap2ID": 141316
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 341714,
-                    "ap2ID": 788444
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 141316,
                     "ap2ID": 761277
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 188323,
+                    "ap2ID": 788444
                 },
                 {
                     "ap1Name": "geometry",
@@ -4691,17 +4730,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 788444,
-                    "ap2ID": 761277
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 816801,
                     "ap2ID": 630753
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 788444,
+                    "ap2ID": 761277
                 },
                 {
                     "ap1Name": "geometry",
@@ -4809,6 +4848,13 @@
             "ap2ID": 992013
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 194330,
+            "ap2ID": 275050
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
@@ -4821,6 +4867,13 @@
             "ap2Primary": true,
             "ap1ID": 810487,
             "ap2ID": 359796
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 992013,
+            "ap2ID": 275050
         },
         {
             "ap1Name": "Geometry",
