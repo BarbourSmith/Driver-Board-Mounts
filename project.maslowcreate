@@ -5099,7 +5099,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 11
+                    "ioValue": 12
                 }
             ]
         },
@@ -5167,7 +5167,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -2
+                            "ioValue": -14
                         }
                     ]
                 },
@@ -5216,7 +5216,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -6
+                            "ioValue": -18
                         }
                     ]
                 },
@@ -5276,7 +5276,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 2
+                            "ioValue": 3
                         }
                     ]
                 },
