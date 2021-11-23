@@ -2679,7 +2679,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/919058/992013/620483Group"
+                            "ioValue": "atoms/919058/992013/374166Group"
                         },
                         {
                             "name": "tag",
@@ -2872,6 +2872,23 @@
                     ],
                     "fileTypeVersion": 1,
                     "simplify": false
+                },
+                {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.7784391534391535,
+                    "y": 0.6538461538461539,
+                    "uniqueID": 374166,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -3138,23 +3155,6 @@
                     ],
                     "fileTypeVersion": 1,
                     "simplify": false
-                },
-                {
-                    "atomType": "Group",
-                    "name": "Group",
-                    "x": 0.8736772486772487,
-                    "y": 0.7948717948717948,
-                    "uniqueID": 374166,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
@@ -3272,13 +3272,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 620483,
-                    "ap2ID": 532188
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 620483,
@@ -3304,6 +3297,13 @@
                     "ap2Primary": false,
                     "ap1ID": 405247,
                     "ap2ID": 788444
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 374166,
+                    "ap2ID": 532188
                 },
                 {
                     "ap1Name": "Geometry",
