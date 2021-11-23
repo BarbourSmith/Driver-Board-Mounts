@@ -2870,23 +2870,10 @@
                     "simplify": false
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "uniqueID": 400906,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/919058/992013/532188Tag"
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Extension Skirt",
-                    "x": 0.7645502645502645,
-                    "y": 0.8012820512820513,
+                    "x": 0.7632275132275133,
+                    "y": 0.7852564102564102,
                     "uniqueID": 550038,
                     "ioValues": [],
                     "topLevel": false,
@@ -2894,30 +2881,30 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.2810846560846561,
-                            "y": 0.3333333333333333,
+                            "x": 0.2830687830687831,
+                            "y": 0.358974358974359,
                             "uniqueID": 922488,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 98
+                                    "ioValue": 99
                                 }
                             ]
                         },
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.36772486772486773,
-                            "y": 0.27884615384615385,
+                            "x": 0.37037037037037035,
+                            "y": 0.3076923076923077,
                             "uniqueID": 846728,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/919058/992013/550038/922488Circle"
+                                    "ioValue": "atoms/919058/992013/550038/718691Circle"
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 5
+                                    "ioValue": 2
                                 }
                             ]
                         },
@@ -3016,13 +3003,6 @@
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 922488,
-                            "ap2ID": 846728
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry1",
                             "ap2Primary": false,
                             "ap1ID": 922488,
@@ -3058,6 +3038,13 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 718691,
+                            "ap2ID": 846728
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 595375,
@@ -3073,6 +3060,36 @@
                     ],
                     "fileTypeVersion": 1,
                     "simplify": false
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "uniqueID": 400906,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/919058/992013/532188Tag"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.8690476190476191,
+                    "y": 0.7852564102564102,
+                    "uniqueID": 374166,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -3190,6 +3207,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 620483,
+                    "ap2ID": 374166
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 761277,
@@ -3208,6 +3232,13 @@
                     "ap2Primary": false,
                     "ap1ID": 405247,
                     "ap2ID": 788444
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 550038,
+                    "ap2ID": 374166
                 }
             ],
             "fileTypeVersion": 1,
