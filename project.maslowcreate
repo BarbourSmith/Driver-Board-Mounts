@@ -837,7 +837,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -35.37
+                                    "ioValue": -33.37
                                 },
                                 {
                                     "name": "zDist",
@@ -2985,7 +2985,12 @@
                     "x": 0.703042328042328,
                     "y": 0.8910256410256411,
                     "uniqueID": 550038,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "Board",
+                            "ioValue": "atoms/919058/992013/915456GitHubMolecule"
+                        }
+                    ],
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -3049,6 +3054,31 @@
                             ]
                         },
                         {
+                            "atomType": "Input",
+                            "name": "Board",
+                            "x": 0.013333333333333334,
+                            "y": 0.8685897435897436,
+                            "uniqueID": 204463,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.5601851851851851,
+                            "y": 0.798076923076923,
+                            "uniqueID": 721493,
+                            "ioValues": [
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": "atoms/919058/992013/915456GitHubMolecule"
+                                },
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": "atoms/919058/992013/550038/799418Extrude"
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9867724867724867,
@@ -3057,7 +3087,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "atoms/919058/992013/550038/799418Extrude"
+                                    "ioValue": "atoms/919058/992013/550038/721493Difference"
                                 }
                             ]
                         }
@@ -3079,10 +3109,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
+                            "ap2Name": "geometry1",
                             "ap2Primary": false,
                             "ap1ID": 799418,
-                            "ap2ID": 325662
+                            "ap2ID": 721493
                         },
                         {
                             "ap1Name": "geometry",
@@ -3090,6 +3120,20 @@
                             "ap2Primary": false,
                             "ap1ID": 718691,
                             "ap2ID": 614299
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": 204463,
+                            "ap2ID": 721493
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 721493,
+                            "ap2ID": 325662
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -3183,6 +3227,13 @@
                     "ap2Primary": false,
                     "ap1ID": 915456,
                     "ap2ID": 809735
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Board",
+                    "ap2Primary": false,
+                    "ap1ID": 915456,
+                    "ap2ID": 550038
                 },
                 {
                     "ap1Name": "Geometry",
