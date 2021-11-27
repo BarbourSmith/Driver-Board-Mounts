@@ -4481,7 +4481,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ]
                 },
