@@ -713,7 +713,7 @@
                                             "ioValue": "atoms/919058/194330/434799/970047/814652Group"
                                         }
                                     ],
-                                    "selectedColorIndex": "21"
+                                    "selectedColorIndex": "0"
                                 },
                                 {
                                     "atomType": "Tag",
@@ -1051,8 +1051,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "JST XH 4 Vertical",
-                            "x": 0.6018518518518519,
-                            "y": 0.16346153846153846,
+                            "x": 0.5998677248677249,
+                            "y": 0.12179487179487178,
                             "uniqueID": 988072,
                             "ioValues": [],
                             "topLevel": false,
@@ -1215,10 +1215,27 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/919058/194330/434799/988072/335447Move"
+                                            "ioValue": "atoms/919058/194330/434799/988072/594671Tag"
                                         }
                                     ],
-                                    "selectedColorIndex": "21"
+                                    "selectedColorIndex": "0"
+                                },
+                                {
+                                    "atomType": "Tag",
+                                    "name": "Add Tag",
+                                    "x": 0.45701058201058203,
+                                    "y": 0.798076923076923,
+                                    "uniqueID": 594671,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/919058/194330/434799/988072/335447Move"
+                                        },
+                                        {
+                                            "name": "tag",
+                                            "ioValue": "Through Hole Pins"
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Output",
@@ -1275,7 +1292,7 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 335447,
-                                    "ap2ID": 548410
+                                    "ap2ID": 594671
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1297,6 +1314,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 548410,
                                     "ap2ID": 643443
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 594671,
+                                    "ap2ID": 548410
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -1579,23 +1603,6 @@
                                             "ioValue": "atoms/919058/194330/434799/183773/433179Group"
                                         }
                                     ]
-                                },
-                                {
-                                    "atomType": "ExtractTag",
-                                    "name": "Extract Tag",
-                                    "x": 0.7506613756613756,
-                                    "y": 0.8108974358974359,
-                                    "uniqueID": 780206,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "atoms/919058/194330/434799/183773/462095Color"
-                                        },
-                                        {
-                                            "name": "tag",
-                                            "ioValue": "Through Hole Pins"
-                                        }
-                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -1661,13 +1668,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 462095,
                                     "ap2ID": 433179
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 462095,
-                                    "ap2ID": 780206
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -6389,8 +6389,8 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.7572751322751322,
-            "y": 0.8557692307692308,
+            "x": 0.7579365079365079,
+            "y": 0.8397435897435898,
             "uniqueID": 628988,
             "ioValues": [
                 {
