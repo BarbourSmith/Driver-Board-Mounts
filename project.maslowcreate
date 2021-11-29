@@ -676,7 +676,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 1.5
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "y length",
@@ -697,7 +697,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": -5
+                                            "ioValue": -4
                                         }
                                     ]
                                 },
@@ -716,6 +716,31 @@
                                     "selectedColorIndex": "0"
                                 },
                                 {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.375,
+                                    "y": 0.7948717948717948,
+                                    "uniqueID": 335447,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/919058/194330/434799/970047/330443Extrude"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 5
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": -8.25
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Tag",
                                     "name": "Add Tag",
                                     "x": 0.45701058201058203,
@@ -729,31 +754,6 @@
                                         {
                                             "name": "tag",
                                             "ioValue": "Through Hole Pins"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "Move",
-                                    "name": "Move",
-                                    "x": 0.375,
-                                    "y": 0.8846153846153847,
-                                    "uniqueID": 335447,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "atoms/919058/194330/434799/970047/330443Extrude"
-                                        },
-                                        {
-                                            "name": "xDist",
-                                            "ioValue": 0.75
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": -8.25
-                                        },
-                                        {
-                                            "name": "zDist",
-                                            "ioValue": 0
                                         }
                                     ]
                                 },
@@ -875,17 +875,17 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 3",
-                                    "ap2Primary": false,
-                                    "ap1ID": 807406,
-                                    "ap2ID": 814652
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 335447,
                                     "ap2ID": 807406
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 3",
+                                    "ap2Primary": false,
+                                    "ap1ID": 807406,
+                                    "ap2ID": 814652
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1175,13 +1175,13 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.1574074074074074,
-                                    "y": 0.6987179487179487,
+                                    "x": 0.15608465608465608,
+                                    "y": 0.7083333333333333,
                                     "uniqueID": 372762,
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 1.5
+                                            "ioValue": 5
                                         },
                                         {
                                             "name": "y length",
