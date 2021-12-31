@@ -353,8 +353,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Connectors",
-                    "x": 0.7515151515151516,
-                    "y": 0.8621794871794872,
+                    "x": 0.7558441558441559,
+                    "y": 0.8782051282051283,
                     "uniqueID": 434799,
                     "ioValues": [],
                     "topLevel": false,
@@ -2178,11 +2178,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 34.5
+                                    "ioValue": 34
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -20.5
+                                    "ioValue": -20
                                 },
                                 {
                                     "name": "zDist",
