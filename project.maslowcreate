@@ -388,7 +388,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Circle",
@@ -896,7 +897,8 @@
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "simplify": false
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Rotate",
@@ -1324,7 +1326,8 @@
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "simplify": false
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Molecule",
@@ -1706,7 +1709,8 @@
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "simplify": false
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Rotate",
@@ -2284,7 +2288,8 @@
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "simplify": false
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Move",
@@ -2521,7 +2526,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "ExtractTag",
@@ -2705,7 +2711,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Move",
@@ -2799,7 +2806,7 @@
         {
             "atomType": "Molecule",
             "name": "Upper Plastic",
-            "x": 0.1097883597883598,
+            "x": 0.11515151515151516,
             "y": 0.6378205128205129,
             "uniqueID": 992013,
             "ioValues": [
@@ -2816,12 +2823,7 @@
                     "x": 0.1061493411420205,
                     "y": 0.27099236641221375,
                     "uniqueID": 395882,
-                    "ioValues": [
-                        {
-                            "name": "Input1",
-                            "ioValue": "atoms/919058/194330Molecule"
-                        }
-                    ],
+                    "ioValues": [],
                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return Input1.noVoid();        //return must be geometry;\n}\n\nreturn main(Input1);"
                 },
                 {
@@ -3155,7 +3157,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Difference",
@@ -3291,8 +3294,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Hexagon Cutaways",
-                    "x": 0.3989751098096633,
-                    "y": 0.9083969465648855,
+                    "x": 0.3965367965367965,
+                    "y": 0.9134615384615384,
                     "uniqueID": 405247,
                     "ioValues": [],
                     "topLevel": false,
@@ -3347,8 +3350,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.5951683748169839,
-                            "y": 0.4809160305343511,
+                            "x": 0.5930735930735931,
+                            "y": 0.483974358974359,
                             "uniqueID": 574595,
                             "ioValues": [
                                 {
@@ -3472,7 +3475,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Group",
@@ -3582,7 +3586,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Output",
@@ -3755,7 +3760,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 }
             ],
             "allConnectors": [
@@ -3793,13 +3799,6 @@
                     "ap2Primary": false,
                     "ap1ID": 141316,
                     "ap2ID": 588548
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Input1",
-                    "ap2Primary": false,
-                    "ap1ID": 738759,
-                    "ap2ID": 395882
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -3922,7 +3921,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Group",
@@ -4509,7 +4509,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Circle",
@@ -4527,8 +4528,8 @@
         {
             "atomType": "Molecule",
             "name": "Lower Plastic",
-            "x": 0.3386243386243386,
-            "y": 0.9006410256410257,
+            "x": 0.33766233766233766,
+            "y": 0.9038461538461539,
             "uniqueID": 434517,
             "ioValues": [],
             "topLevel": false,
@@ -4596,7 +4597,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Extrude",
@@ -4681,7 +4683,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Difference",
@@ -5433,7 +5436,8 @@
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "simplify": false
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Difference",
@@ -5525,7 +5529,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Molecule",
@@ -5999,7 +6004,8 @@
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "simplify": false
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Rotate",
@@ -6215,7 +6221,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Rotate",
@@ -6329,7 +6336,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "ExtractTag",
@@ -6544,6 +6552,7 @@
     ],
     "fileTypeVersion": 1,
     "simplify": false,
+    "unitsIndex": 0,
     "filetypeVersion": 1,
     "circleSegmentSize": "0.051"
 }
