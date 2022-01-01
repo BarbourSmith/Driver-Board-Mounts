@@ -2594,8 +2594,8 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.47445887445887447,
-            "y": 0.22115384615384617,
+            "x": 0.47532467532467537,
+            "y": 0.21794871794871795,
             "uniqueID": 586476,
             "ioValues": [
                 {
@@ -2986,13 +2986,13 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.3593073593073593,
-                    "y": 0.5416666666666666,
+                    "x": 0.12554112554112554,
+                    "y": 0.6474358974358975,
                     "uniqueID": 684778,
                     "ioValues": [
                         {
                             "name": "Input1",
-                            "ioValue": "atoms/919058/992013/915456GitHubMolecule"
+                            "ioValue": "atoms/919058/194330Molecule"
                         }
                     ],
                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1];\n\n\nreturn Input1.removeSelfIntersections();"
@@ -3006,7 +3006,7 @@
                     "ioValues": [
                         {
                             "name": "geometry2",
-                            "ioValue": "atoms/919058/992013/684778Code"
+                            "ioValue": "atoms/919058/992013/915456GitHubMolecule"
                         },
                         {
                             "name": "geometry1",
@@ -3629,17 +3629,17 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Shape",
+                    "ap2Name": "Input1",
                     "ap2Primary": false,
                     "ap1ID": 738759,
-                    "ap2ID": 915456
+                    "ap2ID": 569183
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Input1",
                     "ap2Primary": false,
                     "ap1ID": 738759,
-                    "ap2ID": 569183
+                    "ap2ID": 684778
                 },
                 {
                     "ap1Name": "Geometry",
@@ -3671,17 +3671,17 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "Input1",
+                    "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 915456,
-                    "ap2ID": 684778
+                    "ap2ID": 809735
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "Shape",
                     "ap2Primary": false,
                     "ap1ID": 684778,
-                    "ap2ID": 809735
+                    "ap2ID": 915456
                 },
                 {
                     "ap1Name": "geometry",
