@@ -3503,7 +3503,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": -4
+                                    "ioValue": -2
                                 }
                             ]
                         },
@@ -3816,8 +3816,8 @@
         {
             "atomType": "Group",
             "name": "Group",
-            "x": 0.7471861471861472,
-            "y": 0.20761245674740486,
+            "x": 0.7526455026455027,
+            "y": 0.22115384615384617,
             "uniqueID": 919891,
             "ioValues": [
                 {
@@ -4385,23 +4385,10 @@
             "unitsIndex": 0
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.839622641509434,
-            "y": 0.4519230769230769,
-            "uniqueID": 313071,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Lower Plastic",
-            "x": 0.3359307359307359,
-            "y": 0.8974358974358974,
+            "x": 0.33465608465608465,
+            "y": 0.8878205128205128,
             "uniqueID": 434517,
             "ioValues": [],
             "topLevel": false,
@@ -4737,8 +4724,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Keep Mask",
-                            "x": 0.43557833089311865,
-                            "y": 0.7557251908396946,
+                            "x": 0.4312169312169312,
+                            "y": 0.7275641025641025,
                             "uniqueID": 104441,
                             "ioValues": [],
                             "topLevel": false,
@@ -6212,6 +6199,19 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.839622641509434,
+            "y": 0.4519230769230769,
+            "uniqueID": 313071,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.4831168831168831,
@@ -6387,18 +6387,18 @@
             "ap2ID": 244721
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 313071,
-            "ap2ID": 593544
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 434517,
             "ap2ID": 702022
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 313071,
+            "ap2ID": 593544
         },
         {
             "ap1Name": "geometry",
