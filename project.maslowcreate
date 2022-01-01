@@ -2701,8 +2701,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Grow",
-                    "x": 0.2701298701298701,
-                    "y": 0.5224913494809689,
+                    "x": 0.26666666666666666,
+                    "y": 0.5121107266435986,
                     "uniqueID": 915456,
                     "projectID": "409214963",
                     "ioValues": [
@@ -3128,6 +3128,23 @@
                         {
                             "name": "tag",
                             "ioValue": "Top Plastic"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.6770562770562771,
+                    "y": 0.7024221453287197,
+                    "uniqueID": 315877,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -3674,6 +3691,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 685271,
+                    "ap2ID": 315877
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 809735,
@@ -3741,6 +3765,13 @@
                     "ap2Primary": false,
                     "ap1ID": 715156,
                     "ap2ID": 788444
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 715156,
+                    "ap2ID": 315877
                 },
                 {
                     "ap1Name": "Geometry",
