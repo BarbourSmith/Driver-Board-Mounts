@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Driver Board",
-            "x": 0.0496031746031746,
-            "y": 0.22839506172839508,
+            "x": 0.04365079365079365,
+            "y": 0.20987654320987656,
             "uniqueID": 194330,
             "ioValues": [],
             "topLevel": false,
@@ -832,8 +832,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Connectors",
-                    "x": 0.7539682539682541,
-                    "y": 0.8734567901234569,
+                    "x": 0.7506613756613756,
+                    "y": 0.904320987654321,
                     "uniqueID": 434799,
                     "ioValues": [],
                     "topLevel": false,
@@ -2236,11 +2236,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 25
+                                    "ioValue": 24
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9
+                                    "ioValue": -8
                                 },
                                 {
                                     "name": "zDist",
@@ -4552,8 +4552,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.625,
-            "y": 0.5,
+            "x": 0.626984126984127,
+            "y": 0.5185185185185185,
             "uniqueID": 271559,
             "ioValues": [
                 {
