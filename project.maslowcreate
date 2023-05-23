@@ -4579,8 +4579,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Bolts",
-            "x": 0.15013227513227512,
-            "y": 0.861111111111111,
+            "x": 0.14682539682539683,
+            "y": 0.8518518518518517,
             "uniqueID": 609130,
             "ioValues": [],
             "topLevel": false,
@@ -4706,8 +4706,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6337662337662338,
-                    "y": 0.23397435897435898,
+                    "x": 0.6355820105820106,
+                    "y": 0.2345679012345679,
                     "uniqueID": 828373,
                     "ioValues": [
                         {
@@ -4716,7 +4716,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 36
+                            "ioValue": -36
                         },
                         {
                             "name": "yDist",
@@ -4791,11 +4791,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -17
+                            "ioValue": 17
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 31.5
+                            "ioValue": -31.5
                         },
                         {
                             "name": "zDist",
@@ -4867,11 +4867,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -11
+                            "ioValue": 11
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -19
+                            "ioValue": 19
                         },
                         {
                             "name": "zDist",
@@ -6932,8 +6932,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.6607142857142857,
-            "y": 0.8179012345679013,
+            "x": 0.6593915343915344,
+            "y": 0.8117283950617283,
             "uniqueID": 359796,
             "ioValues": [
                 {
